@@ -67,11 +67,11 @@ function endQuiz() {
     quizContainer.innerHTML = `<h1>Quiz Completo</h1>
                                <p>Sua Pontuação: ${score}/${questions.length}</p>
                                <p>Respostas:</p>
-                                <p>1. a) Comprar uma opção que o preço do ativo vai subir.</p>
-                             <p></p> 2. a) A opção expira sem valor.</p>
+                            <p>1. a) Comprar uma opção que o preço do ativo vai subir.</p>
+                             <p>2. a) A opção expira sem valor.</p>
                               <p>3. c) Oferecem apenas dois resultados possíveis.</p>
                               <p>4. c) Um mercado financeiro para pares de moedas.</p>
-                              <p></p> 5. b) Comprar uma opção que o preço do ativo vai cair.</p>;`
+                              <p>5. b) Comprar uma opção que o preço do ativo vai cair.</p>;`
 }
 
 function nextQuestion() {
